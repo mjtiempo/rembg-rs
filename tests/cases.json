@@ -1,0 +1,17 @@
+[
+  { "name": "u2net_qr_default", "model": "u2net", "input": "qr.png" },
+  { "name": "u2net_qr_only_mask", "model": "u2net", "input": "qr.png", "only_mask": true },
+  { "name": "u2net_qr_post_process", "model": "u2net", "input": "qr.png", "post_process_mask": true },
+  { "name": "u2net_qr_alpha_matting", "model": "u2net", "input": "qr.png", "alpha_matting": true },
+  { "name": "u2net_photo_naive", "model": "u2net", "input": "photo.jpg" },
+  { "name": "u2net_photo_decontaminate", "model": "u2net", "input": "photo.jpg", "decontaminate": true },
+  { "name": "u2net_photo_alpha_matting", "model": "u2net", "input": "photo.jpg", "alpha_matting": true },
+  { "name": "u2net_photo_alpha_matting_bg", "model": "u2net", "input": "photo.jpg", "alpha_matting": true, "bgcolor": [255, 0, 0, 255] },
+  { "name": "u2net_photo_alpha_matting_thresholds", "model": "u2net", "input": "photo.jpg", "alpha_matting": true, "alpha_matting_foreground_threshold": 200, "alpha_matting_background_threshold": 20, "alpha_matting_erode_size": 4 },
+  { "name": "u2net_photo_bgcolor", "model": "u2net", "input": "photo.jpg", "bgcolor": [12, 34, 56, 200] },
+  { "name": "u2net_photo_pp_decont", "model": "u2net", "input": "photo.jpg", "post_process_mask": true, "decontaminate": true },
+  { "name": "u2net_photo_pp_only_mask", "model": "u2net", "input": "photo.jpg", "post_process_mask": true, "only_mask": true },
+  { "name": "u2net_screen_default", "model": "u2net", "input": "screen.png" },
+  { "name": "isnet_photo_default", "model": "isnet-general-use", "input": "photo.jpg" },
+  { "name": "bria_photo_default", "model": "bria-rmbg", "input": "photo.jpg" }
+]
