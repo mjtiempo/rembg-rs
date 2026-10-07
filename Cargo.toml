@@ -1,6 +1,6 @@
 [package]
 name = "rembg-rs"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
 description = "Remove image backgrounds — a Rust rewrite of python-rembg"
 license = "MIT"

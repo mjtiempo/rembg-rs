@@ -1,6 +1,6 @@
 # rembg-rs
 
-**v0.1.0** — MIT — © 2026 Mark John Tiempo
+**v0.0.1** — MIT — © 2026 Mark John Tiempo
 
 A rewrite of [python-rembg](https://github.com/danielgatis/rembg) in Rust:
 give it an image, get it back with the background removed. Decode → EXIF
@@ -54,7 +54,7 @@ rembg-rs d u2netp                              # download one model and verify i
 
 ```toml
 [dependencies]
-rembg-rs = "0.1.0"
+rembg-rs = "0.0.1"
 ```
 
 ```rust
